@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "DevMindSpeedGame.Controllers.GameController",
+    "Method": "End",
+    "RelativePath": "api/Game/{sessionId}/End",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevMindSpeedGame.Controllers.GameController",
+    "Method": "Submit",
+    "RelativePath": "api/Game/{sessionId}/Submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "DevMindSpeedGame.Models.Models.SubmitRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevMindSpeedGame.Controllers.GameController",
+    "Method": "Start",
+    "RelativePath": "api/Game/Start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DevMindSpeedGame.Models.Models.GameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
